@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #edf0f1;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  position: sticky; /*Sticky*/
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #24252A;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style: none
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav_links li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav_links li a:hover{
+  color: #0FB0A0;
+}
+
+.redes{
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 100px
+}
+h2{
+  font-size: 70px
+}
+
+p{
+  font-size: 20px;
+  line-height: 20px;
+  text-align: justify;
+  text-justify: inter-word
+}
+/*----------------Sobre---------------------*/
+.paralax-sobre{
+  width: 100%;
+  height: 880px;
+  padding-top: 15px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url(img/bg/IMG_44622.JPG);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.post-sobre{
+  display: flex;
+  height: 88%;
+  align-items: center;
+  padding: 30px 9.6%;
+}
+
+.imglogo{
+  height: 500px;
+}
+
+.box-sobre{
+  height: 88%;
+  padding: 30px 10%;
+  margin: 0 auto;
+  background-color: #c6c6c6;
+  display:flex;
+  align-items: center
+}
+
+.box-sobre h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #3b3b3b;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.box-sobre p{
+  font-size: 16px;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.box-sobre a{
+  color: #3b3b3b;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+
+.box-sobre a:hover{
+  color: #0FB0A0
+}
+
+
+.coluna-sobre{
+  padding-right: 20px;
+}
+.img-perfil{
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*----------------Portifólio---------------------*/
+.paralax-portifolio{
+  width: 100%;
+  padding-top: 15px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/bg/IMG_4408.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.post-portifolio{
+  display: flex;
+  height: 88%;
+  align-items: center;
+  padding: 30px 9.6%;
+}
+
+.coluna-portifolio{
+  width: 50%;
+}
+
+.box-portifolio{
+  height: 88%;
+  padding: 30px 10%;
+  margin: 0 auto;
+  background-color: #c6c6c6;
+}
+
+.box-portifolio a{
+  color: #3b3b3b;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+
+.box-portifolio a:hover{
+  color: #0FB0A0
+}
+
+
+.box-portifolio h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #3b3b3b;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.box-portifolio p{
+  font-size: 18px;
+  color: #3b3b3b;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.img-horiz{
+  width: 360px;
+  height: 220px;
+  margin-top: auto;
+  margin-left: 15px;
+  transition: 1.4s;
+}
+
+.img-horiz img{
+  display: block;
+	width:100%;
+	border-radius: 5px;
+  box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
+}
+
+.img-horiz:hover{
+	transform: scale(2);
+	z-index: 2;
+}
+
+
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/*----------------Projetos Pessoais---------------------*/
+.paralax-projetospessoais{
+  width: 100%;
+  padding-top: 15px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/bg/IMG_4536.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.post-projetospessoais{
+  display: flex;
+  height: 88%;
+  padding: 30px 9.6%;
+
+}
+
+.coluna-projetospessoais{
+  width: 50%;
+}
+
+.box-projetospessoais a{
+  color: #3b3b3b;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+
+.box-projetospessoais a:hover{
+  color: #0FB0A0
+}
+
+.box-projetospessoais{
+  height: 88%;
+  padding: 30px 10%;
+  margin: 0 auto;
+  background-color: #c6c6c6;
+}
+
+.box-projetospessoais h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #3b3b3b;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.box-projetospessoais p{
+  font-size: 16px;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+  text-align: center
+}
+
+.img-vert{
+  width: 220px;
+  height: 360px;
+  margin-top: auto;
+  margin-left: 15px;
+  transition: 1.4s;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.img-vert img{
+  display: block;
+	width:100%;
+	border-radius: 5px;
+  box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
+
+}
+
+.img-vert:hover{
+	transform: scale(2);
+	z-index: 2;
+}
+
+
+
+@media screen and (max-width: 768px){
+  header{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 128px;
+    background-color: #24252A;
+  }
+
+.box-sobre{
+  display:block;
+  }
+.img-perfil{
+  padding-left: 0px;
+  width: 290px;
+}
+
+  .imglogo{
+    height: 400px;
+    padding-left: 50px;
+  }
+
+  .paralax-sobre{
+    height: 500px;
+  }
+
+  .redes{
+    display: flex;
+    padding: 9px 10px;
+  }
+
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  .nav_links li a{
+    letter-spacing: 0px;
+  }
+
+  .post-sobre {
+    display: inline-table;
+
+  }
+  .coluna-sobre{
+    width: 100%;
+    text-align: center;
+
+  }
+  .coluna-portifolio{
+    width: 100%;
+    text-align: center;
+  }
+  .coluna-projetospessoais{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px){
+  header{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #24252A;
+  }
+
+  .redes{
+    display: flex;
+  }
+
+  .coluna-sobre{
+    height: 50%;
+    text-align: left;
+  }
+
+  .paralax-sobre{
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+   p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .imglogo{
+    height: 200px;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .coluna-portifolio{
+    width: 100%;
+    text-align: center;
+  }
+  .coluna-projetospessoais{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+footer{
+  background-color: #24252A;
+  padding: 20px 10%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
