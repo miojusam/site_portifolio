@@ -302,25 +302,6 @@ p{
 	z-index: 2;
 }
 
-.img-horiz{
-  width: 360px;
-  height: 220px;
-  margin-top: auto;
-  margin-left: 15px;
-  transition: 1.4s;
-}
-
-.img-horiz img{
-  display: block;
-	width:100%;
-	border-radius: 5px;
-  box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
-}
-
-.img-horiz:hover{
-	transform: scale(2);
-	z-index: 2;
-}
 
 
 @media screen and (max-width: 768px){
@@ -436,6 +417,21 @@ p{
   .conteudo-projetospessoais h1{
     font-size: 30px;
   }
+
+  .conteudo-portifolio h1{
+    font-size: 30px;
+  }
+
+  .img-horiz:hover{
+  	transform: none;
+  	
+  }
+
+  .img-vert:hover{
+  	transform: none;
+
+  }
+
 
 }
 
