@@ -291,7 +291,7 @@ p{
 
 .img-vert img{
   display: block;
-	width:100%;
+	width: 100%;
 	border-radius: 5px;
   box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
 
@@ -302,6 +302,25 @@ p{
 	z-index: 2;
 }
 
+.img-horiz{
+  width: 360px;
+  height: 220px;
+  margin-top: auto;
+  margin-left: 15px;
+  transition: 1.4s;
+}
+
+.img-horiz img{
+  display: block;
+	width:100%;
+	border-radius: 5px;
+  box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
+}
+
+.img-horiz:hover{
+	transform: scale(2);
+	z-index: 2;
+}
 
 
 @media screen and (max-width: 768px){
@@ -398,6 +417,8 @@ p{
     line-height: 20px;
   }
 
+
+
   .imglogo{
     height: 200px;
     align-items: center;
@@ -412,6 +433,10 @@ p{
     width: 100%;
     text-align: center;
   }
+  .conteudo-projetospessoais h1{
+    font-size: 30px;
+  }
+
 }
 
 footer{
